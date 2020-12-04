@@ -1,0 +1,143 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+::placeholder{
+    font-family: "Raleway" , sans-serif;
+    font-weight: 600i;
+    
+}
+select{
+    font-family: "Raleway" , sans-serif;
+    font-weight: 600;
+}
+select option:first-child{
+    font-family: "Raleway" , sans-serif;
+    font-weight: 600i;
+}
+
+#container{
+    width:100%;
+    background-color: rgb(184, 203, 245);
+    text-align:center;
+    box-sizing: border-box;
+    height:735px;  
+    padding-top:20px;
+    font-family: "Raleway" , sans-serif;
+    font-weight: 600;
+    font-size:20px;
+    
+}
+span{
+    color:white;
+}
+h1{
+    font-family: "Raleway" , sans-serif;
+}
+#form_div{
+   
+    background-color: white;
+    height:10px;
+    margin:30px;
+    height:650px;
+    border-radius: 20px;
+}
+form{
+    text-align: center;
+    padding-top:50px;
+}
+form p{
+    margin-bottom:20px;
+    
+}
+.top{
+    margin-left: 250px
+}
+sup{
+    margin-right:10px;
+}
+input[type = "text"]{
+    margin-left: 25px;
+    height:30px;
+    width:300px;
+    margin-bottom:30px;
+    padding-left:5px;
+    
+}
+input[type = "email"]{
+    margin-left: 25px;
+    height:30px;
+    width:300px;
+    margin-bottom:30px;
+    padding-left:5px;
+    
+}
+input[type = "number"]{
+    margin-left: 25px;
+    height:30px;
+    width:300px;
+    margin-bottom:30px;
+    padding-left:5px;
+    
+}
+
+#age{
+    margin-left:35px;
+}
+.sel{
+    margin-left: -270px;
+
+    
+}
+.role_select{
+    margin-left: 20px;
+    padding:5px;
+    width:150px;
+    margin-bottom:30px;
+}
+.check{
+    display:flex;
+    justify-content: center;
+    width:100%;
+    margin-bottom: 30px;
+  
+   
+}
+.check_label{
+    
+    margin-right: 25px;
+}
+.rad{
+    margin-right: 270px;
+
+}
+input[type = "radio"]{
+    margin-bottom:10px;
+}
+.sublabel{
+    margin-left: 113px;
+}
+.seltwo{
+    margin-left: -120px;
+}
+.like_select{
+    margin-left: 20px;
+    padding:5px;
+    width:150px;
+    margin-bottom:30px;
+}
+#things{
+    margin-right: 30px;
+}
+.sublabeltwo{
+    margin-left: 240px;
+}
+.chckbx{
+    margin-right: 225px;
+
+
+}
+input[type = "checkbox"]{
+    margin-bottom:10px;
+}

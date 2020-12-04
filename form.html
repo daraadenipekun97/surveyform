@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+
+    <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <h1>Survey Form</h1>
+        <div id="form_div">
+            <form action="">
+                <p>Let us know how we can improve freeCodeCamp</p>
+                <label class="top" for="name"><sup>*</sup>Name:</label> <input type="text" placeholder="Enter your name" id="name"> <br>
+                <label class="top" for="email"><sup>*</sup>Email:</label> <input type="email" placeholder="Enter your Email" id="email"> <br>
+                <label class="top" for="age"><sup>*</sup>Age:</label> <input type="number" placeholder="Enter your age" id="age"> <br>
+                <label class="sel" for="role_select">Which option best describes your current role?</label> <select name="role" class="role_select"><option  value="Student">Student</option></select><br>
+                 <div class="check">
+                     <div class="check_label">  <label for=""><sup>*</sup>How likely is that you would recommend </label> <br>
+                        <label for="" class="sublabel">freeCodeCamp to a friend? </label>
+                    
+                    </div>
+                     <div class="rad"> 
+                         <input type="radio" name="rec" value="Def"> Definitely <br>
+                         <input type="radio" name="rec" value="maybe"> Maybe <span>..,..</span><br>
+                         <input type="radio" name="rec" value="unsure"> Not Sure <span>.</span>
+                    
+                    </div>
+                 </div>
+                 <label class="seltwo" for="like_select">What do you like most in FCC?</label> <select name="role" class="like_select"><option value="">Select an Option</option></select><br>
+                 
+                 <div class="check">
+                    <div class="check_label"  id="things">  <label for=""><sup>*</sup>Things that should be improved in the future </label> <br>
+                       <label for="" class="sublabeltwo">(Check all that apply) </label>
+                   
+                   </div>
+                    <div class="chckbx"> 
+                        <input type="checkbox" name="rec" value="Def"> Front-end Projects <span>.</span> <br>
+                        <input type="checkbox" name="rec" value="maybe"> Back-end Projects <span>.</span> <br>
+                        <input type="checkbox" name="rec" value="unsure"> Data Visualisation <span>..</span>
+                   
+                   </div>
+                </div>
+              
+            </form>
+        </div>
+    </div>
+</body>
+</html>
