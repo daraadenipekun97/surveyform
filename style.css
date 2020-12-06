@@ -141,3 +141,194 @@ input[type = "radio"]{
 input[type = "checkbox"]{
     margin-bottom:10px;
 }
+.attachtext{
+color: black;
+display: none;
+
+}
+
+
+/* 
+---------------MEDIA QUERIES-----------------------
+---------------MEDIA QUERIES-----------------------
+---------------MEDIA QUERIES----------------------- */
+
+
+
+@media(max-width:1004px){
+    #container{
+       
+        font-weight: 300;
+        font-size:15px;
+        
+    }
+
+    #form_div{
+   
+        background-color: white;
+        height:10px;
+        margin:30px;
+       padding-left: 5vw;
+        height:650px;
+        border-radius: 20px;
+    }
+    form{
+        text-align:left;
+      
+    }
+    .top{
+        margin-left: 0px
+    }
+    .sel{
+        margin-left: 0px;
+    
+        
+    }
+    .check{
+        display:flex;
+        justify-content: left;
+        width:100%;
+        margin-bottom: 30px;
+      
+       
+    }
+    .seltwo{
+        margin-left:0px;
+    }
+    .sublabel{
+        margin-left: 100px;
+    }
+    
+    .sublabeltwo{
+        margin-left: 100px;
+
+}
+}
+@media (max-width:817px){
+
+    .check{
+        display:block;
+        justify-content: center;
+        width:100%;
+        margin-bottom: 30px;
+      
+       
+    }
+    .attachtext{
+        color: black;
+       display: inline-block;
+        
+        }
+        .sublabel{
+           display: none;
+        }
+        .rad{
+            margin-top:10px;
+        }
+        .sublabeltwo{
+          display: none;
+    
+    }
+    .chckbx{
+        margin-right: 0px;
+        margin-top: 10px;
+    
+    
+    }
+        
+
+}
+@media (max-width:571px){
+    .role_select{
+        margin-left: 20px;
+        padding:5px;
+        width:150px;
+        margin-bottom:30px;
+        margin-top: 10px;
+    }
+    #form_div{
+   
+        background-color: white;
+        height:10px;
+        margin:30px;
+        height:750px;
+        border-radius: 20px;
+    }
+    
+    #container{
+       
+        font-weight: 300;
+        font-size:15px;
+        height:850px;  
+        
+    }
+    
+}
+@media (max-width:458px){
+    input{
+        margin-top: 10px;
+    }
+    input[type = "checkbox"]{
+        margin-top:0px;
+    }
+    .like_select{
+        margin-top: 10px;
+    }
+    #form_div{
+   
+        background-color: white;
+        height:10px;
+        margin:30px;
+        height:850px;
+        border-radius: 20px;
+    }
+    
+    #container{
+       
+        font-weight: 300;
+        font-size:15px;
+        height:950px;  
+        
+    }
+}
+@media (max-width:413px){
+    input[type = "text"]{
+      
+        width:150px;
+       
+        
+    }
+    input[type = "email"]{
+      
+        width:150px;
+       
+        
+    }
+    input[type = "number"]{
+      
+        width:150px;
+       
+        
+    }
+    #form_div{
+   
+        background-color: white;
+        height:10px;
+        margin:30px;
+        height:900px;
+        border-radius: 20px;
+    }
+    
+    #container{
+       
+        font-weight: 300;
+        font-size:15px;
+        height:1000px;  
+        
+    }
+    .rad{
+        margin-right: 0px;
+    
+    }
+
+}

@@ -1,0 +1,396 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+#container{
+    width:100%;
+
+}
+.header{
+    background-color:#0e1a1f;
+    width:100%;
+    height:100px;  
+    padding:30px;
+    display: flex;
+    position: fixed;
+    z-index:2;
+}
+.logo{
+    display:flex;
+}
+.logo h3{
+    color:#278f82;
+    margin-left:10px;
+    padding-top: 10px;
+}
+#logodiv{
+    width:50px;
+    height:50px;
+   
+}
+#logodiv img{
+    width:100%;
+}
+#navlogo{
+    display:flex;
+    width:900px;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    font-weight: 400;
+    font-size: large;
+    padding-left:40px;
+    padding-top:10px;
+    color:white;
+ 
+}
+ul li:hover{
+    color:#278f82;
+}
+li span{
+    margin-left: 10px;
+    color:#278f82;
+}
+#child_link{
+    position: absolute;
+    top:80px;
+    background-color:white;
+    border-radius:5px;
+    display:none;
+   
+}
+#child_link li{
+    display:block;
+    padding:10px;
+    color:rgb(218, 214, 214)
+}
+#child_link li:hover{
+    color:black;
+}
+#bars{
+    display:none;
+}
+#buttons{
+   
+    /* border: 1px solid white; */
+    position:absolute;
+    right:20px;
+    top:20px;
+}
+#btn1{
+    padding:15px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: larger;
+    background-color:#278f82;
+    color:white;
+    width:120px;
+    border:none;
+    margin-right:10px;
+
+}
+#btn1:hover{
+    background-color:#18524b;
+}
+#btn2{
+   
+    padding:15px;
+    border-radius: 5px;
+    font-size: larger;
+    color:black;
+    width:120px;
+    border:none;
+}
+
+#jumbo{
+    width:100%;
+    height:1000px;
+    background-color:white;
+    border:1px solid white;
+    border-top-color:#0e1a1f ;
+    
+  
+} 
+#githubreg{
+    width:50%;
+    height:150px;
+    background-color: white;
+    margin: auto;
+    margin-top: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+
+}
+#innergit{
+    width:100%;
+    height:50px;
+    padding-left:10px;
+    padding-top: 10px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+
+}
+#innergit h1{
+    font-size:20px;
+    color:#363636;
+    text-align: left;
+}
+
+#regbtn{
+    width:90%;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #1cbfac;
+    color:white;
+    font-size: large;
+    
+}
+#regbtn:hover{
+    background-color: rgb(10, 134, 134);
+}
+#regform{
+    width:50%;
+    height:600px;
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+
+}
+#regform h1{
+    font-size:20px;
+    color:#363636;
+    text-align: left;
+}
+#regform_inner{
+    width:100%;
+    height:50px;
+    padding-left:10px;
+    padding-top: 10px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#formdiv{
+    width:100%;
+    height:550px;
+    padding-top:5vw;
+    padding-left:5vw;
+}
+form{
+
+    text-align: left;
+}
+input{
+    display:block;
+    padding:10px;
+    width:90%;
+    margin-top:15px;
+  
+}
+#registerbtn{
+
+    margin-top: 15px;
+    padding: 10px;
+    font-weight: 300;
+    background-color: #1cbfac;
+    color:white;
+    border: none;
+    border-radius: 5px;
+
+  
+}
+
+
+
+
+
+#footer{
+    width:100%;
+    height:120px;
+    background-color:#0e1a1f;
+    display:flex;
+    padding-left:5vw;
+    padding-top:5vw;
+}
+#footer p{
+    color:#12a191;
+    margin-right: 50vw;
+}
+#footer h1{
+    color:white;
+    font-size:20px;
+  
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+/* =============================== MEDIA QUERIES=========================== */
+/* =============================== MEDIA QUERIES=========================== */
+/* =============================== MEDIA QUERIES=========================== */
+@media (max-width:1350px){
+ 
+#buttons{
+    display:block;
+    position:absolute;
+    left:47px;
+    top:450px;
+ 
+}
+#btn1{
+    padding:5px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: small;
+    background-color:#278f82;
+    color:white;
+    width:120px;
+    border:none;
+    margin-right:10px;
+
+}
+#btn1:hover{
+    background-color:#18524b;
+}
+#btn2{
+   
+    padding:5px;
+    border-radius: 5px;
+    font-size:small;
+    color:black;
+    width:120px;
+    border:none;
+}
+#bars{
+    display:block;
+    position:absolute;
+    right:20px;
+    padding:20px;
+    top:25px;
+}
+#bars i{
+    color:white;
+    font-size:larger;
+ 
+    
+}
+
+#bars:hover{
+    background-color:#060c0e;
+    opacity:0.5;
+    
+}
+
+ul{
+   
+     margin-top:20px;
+    width:94vw; 
+    background-color:#1f3944;
+    height:400px;
+    display:none;
+    z-index:2;
+
+
+}
+ul li{
+   
+    display:block;
+    font-weight: 200;
+    font-size: small;
+    padding-left:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    width:94vw; 
+   
+ 
+}
+.showul{
+    display:block;
+}
+#navlogo{
+   
+    display:block;
+    width:900px;
+}
+#child_link{
+   
+   position: absolute;
+    top:150px;
+    background-color:transparent;
+    border-radius:5px;
+    display:block;
+    width:50vw;
+   
+}
+#link{
+   padding-bottom:80px;
+}
+#child_link li{
+    display:block;
+    padding:10px;
+    color:rgb(218, 214, 214)
+}
+#child_link li:first-child{
+    padding-top:20px;
+}
+#child_link li:hover{
+    color:#5b7e8d;
+
+}
+
+}
+@media (max-width:1267px){
+   
+    
+}
+@media(max-width:800px){
+   
+     #footer{
+        width:100%;
+        height:120px;
+        background-color:#0e1a1f;
+        display:block;
+        padding-left:5vw;
+        padding-top:5vw;
+    }
+    #footer p{
+        width:90vw;
+        font-size: smaller;
+        margin-bottom: 20px;
+    }
+    #footer h1{
+        text-align: right;
+        padding-right: 20px;
+    }
+
+}
+@media (max-width:360px){
+
+   #githubreg{
+    width:90%;
+   
+
+}
+#regform{
+    width:90%;
+  
+
+}
+
+    
+}
+
+
