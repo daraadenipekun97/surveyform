@@ -309,6 +309,14 @@ label{
 /* =============================== MEDIA QUERIES=========================== */
 /* =============================== MEDIA QUERIES=========================== */
 @media (max-width:1350px){
+    #laptop{
+        width:50vw;
+        position:absolute;
+        right:0px;
+        top:200px;
+        display: block;
+       
+    }
  
 #buttons{
     display:block;
@@ -431,9 +439,10 @@ ul li{
         width:70%;
        position:absolute;
        top:300px;
-       left:20vw;
+       left:15vw;
        color:white;
        right:130px;
+      
     }
     #sectiontwo{
         padding-left:5vw;
